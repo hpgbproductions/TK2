@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModManifest buildID="3960ff32-87d3-4b12-a7ea-e019a07f0343">
+  <Mod name="Teki no Kichi 2" author="hpgbproductions" versionMajor="1" versionMinor="0" loadPriority="1000" lastUpdated="2021-01-18T10:40:57.1228726Z" apiVersion="1.0.0.0" description="A battle against an unknown enemy during a time of great change.">
+    <Steam title="" visibility="Public" previewPath="" language="English" tags="">
+      <description></description>
+    </Steam>
+    <GameObjects>
+      <GameObject name="Guam" path="Assets/_ModAssets_/Guam.prefab" />
+      <GameObject name="Iturup" path="Assets/_ModAssets_/Iturup.prefab" />
+      <GameObject name="Mission1a" path="Assets/_ModAssets_/Mission1a.prefab" />
+      <GameObject name="Mission1b" path="Assets/_ModAssets_/Mission1b.prefab" />
+      <GameObject name="Mission1c" path="Assets/_ModAssets_/Mission1c.prefab" />
+      <GameObject name="Mission2a" path="Assets/_ModAssets_/Mission2a.prefab" />
+      <GameObject name="Mission2b" path="Assets/_ModAssets_/Mission2b.prefab" />
+      <GameObject name="Mission2c" path="Assets/_ModAssets_/Mission2c.prefab" />
+      <GameObject name="Mission2d" path="Assets/_ModAssets_/Mission2d.prefab" />
+      <GameObject name="Mission3a" path="Assets/_ModAssets_/Mission3a.prefab" />
+      <GameObject name="Mission3b" path="Assets/_ModAssets_/Mission3b.prefab" />
+      <GameObject name="Mission3c" path="Assets/_ModAssets_/Mission3c.prefab" />
+      <GameObject name="Mission4a" path="Assets/_ModAssets_/Mission4a.prefab" />
+      <GameObject name="Mission4b" path="Assets/_ModAssets_/Mission4b.prefab" />
+      <GameObject name="Onekotan" path="Assets/_ModAssets_/Onekotan.prefab" />
+      <GameObject name="Paramushir" path="Assets/_ModAssets_/Paramushir.prefab" />
+      <GameObject name="PERSISTENT" path="Assets/_ModAssets_/PERSISTENT.prefab" />
+      <GameObject name="Shikotan" path="Assets/_ModAssets_/Shikotan.prefab" />
+      <GameObject name="Simushir" path="Assets/_ModAssets_/Simushir.prefab" />
+    </GameObjects>
+    <Assets>
+      <Asset path="Assets/Scenes/NewLayer.terrainlayer" />
+      <Asset path="Assets/SimplePlanes/Meshes/MountainBase.fbx" />
+      <Asset path="Assets/SimplePlanes/Meshes/SnowstoneRunway.fbx" />
+      <Asset path="Assets/Supply/AldotheApache.ttf" />
+      <Asset path="Assets/Supply/Bomber_model/Bomber_export.obj" />
+      <Asset path="Assets/Supply/Bomber_model/texture.Bomber_export.png" />
+      <Asset path="Assets/Supply/full.png" />
+      <Asset path="Assets/Supply/gray-dark.mat" />
+      <Asset path="Assets/Supply/gray-green.mat" />
+      <Asset path="Assets/Supply/Hellkeska_model/Hellkeska_export.obj" />
+      <Asset path="Assets/Supply/Hellkeska_model/texture.Hellkeska_export.png" />
+      <Asset path="Assets/Supply/s700/Aircraft_export.obj" />
+      <Asset path="Assets/Supply/s700/texture.Aircraft_export.png" />
+      <Asset path="Assets/Supply/Score.guiskin" />
+      <Asset path="Assets/Supply/unlit.mat" />
+      <Asset path="Assets/TerrainData/guam/afb/afb.png" />
+      <Asset path="Assets/TerrainData/guam/afb/NewLayer.terrainlayer" />
+      <Asset path="Assets/TerrainData/guam/NewLayer.terrainlayer" />
+      <Asset path="Assets/TerrainData/guam/terrain_g.asset" />
+      <Asset path="Assets/TerrainData/guam/texture_fix_res2b.png" />
+      <Asset path="Assets/TerrainData/iturup/afb.terrainlayer" />
+      <Asset path="Assets/TerrainData/iturup/afb_f.png" />
+      <Asset path="Assets/TerrainData/iturup/New Terrain.asset" />
+      <Asset path="Assets/TerrainData/iturup/NewLayer.terrainlayer" />
+      <Asset path="Assets/TerrainData/iturup/north.terrainlayer" />
+      <Asset path="Assets/TerrainData/iturup/north_f.png" />
+      <Asset path="Assets/TerrainData/iturup/sat-f.png" />
+      <Asset path="Assets/TerrainData/NewLayer.terrainlayer" />
+      <Asset path="Assets/TerrainData/onekotan/New Terrain.asset" />
+      <Asset path="Assets/TerrainData/onekotan/NewLayer.terrainlayer" />
+      <Asset path="Assets/TerrainData/onekotan/sat-r.png" />
+      <Asset path="Assets/TerrainData/paramushir/New Terrain.asset" />
+      <Asset path="Assets/TerrainData/paramushir/NewLayer.terrainlayer" />
+      <Asset path="Assets/TerrainData/paramushir/sat-r.png" />
+      <Asset path="Assets/TerrainData/s_kuril/NewLayer 1.terrainlayer" />
+      <Asset path="Assets/TerrainData/s_kuril/NewLayer 2.terrainlayer" />
+      <Asset path="Assets/TerrainData/s_kuril/NewLayer.terrainlayer" />
+      <Asset path="Assets/TerrainData/s_kuril/sat.png" />
+      <Asset path="Assets/TerrainData/s_kuril/terrain.asset" />
+      <Asset path="Assets/TerrainData/s_kuril/town_c_res.png" />
+      <Asset path="Assets/TerrainData/s_kuril/town_e_res.png" />
+      <Asset path="Assets/TerrainData/simushir/NewLayer 1.terrainlayer" />
+      <Asset path="Assets/TerrainData/simushir/NewLayer.terrainlayer" />
+      <Asset path="Assets/TerrainData/simushir/sat_b_fix.png" />
+      <Asset path="Assets/TerrainData/simushir/sat_fix.png" />
+      <Asset path="Assets/TerrainData/simushir/terrain_s.asset" />
+    </Assets>
+    <MaterialShaderMap>
+      <Material name="gray-dark" shader="Standard" />
+      <Material name="gray-green" shader="Standard" />
+      <Material name="unlit" shader="Unlit/Color" />
+    </MaterialShaderMap>
+    <Assemblies>
+      <Assembly name="TekinoKichi2-Assembly-CSharp.dll" path="Assets/_ModAssets_/TekinoKichi2-Assembly-CSharp.dll.bytes" isProjectAssembly="true" />
+    </Assemblies>
+    <Sections>
+      <SimplePlanesMod apiVersion="1.0.0.0">
+        <Maps>
+          <Map name="Guam" description="" path="Assets/_ModAssets_/Guam.prefab" allowSandbox="true" />
+          <Map name="Iturup" description="" path="Assets/_ModAssets_/Iturup.prefab" allowSandbox="true" />
+          <Map name="Onekotan" description="" path="Assets/_ModAssets_/Onekotan.prefab" allowSandbox="true" />
+          <Map name="Paramushir" description="" path="Assets/_ModAssets_/Paramushir.prefab" allowSandbox="true" />
+          <Map name="Shikotan" description="" path="Assets/_ModAssets_/Shikotan.prefab" allowSandbox="true" />
+          <Map name="Simushir" description="" path="Assets/_ModAssets_/Simushir.prefab" allowSandbox="true" />
+        </Maps>
+        <Levels>
+          <Level name="Mission 1a" description="Vehicle: Attacker&#xA;Location: Shikotan&#xA;Weather: Scattered Clouds&#xA;Time: 1000&#xA;&#xA;An unknown group has suddenly invaded most of the Kuril Islands. You have been hired to assist in their removal.&#xA;&#xA;Your first mission is to aid the landing operation on the central village.&#xA;&#xA;TGT:&#xA;- Destroyer&#xA;- 6x AA Tank&#xA;&#xA;Additional:&#xA;- 4x Missile Launcher" mapName="Shikotan" levelTypeName="Mission1a, TekinoKichi2-Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" supportedPlatform="0" />
+          <Level name="Mission 1b" description="Vehicle: Attacker&#xA;Location: Shikotan&#xA;Weather: Broken Clouds&#xA;Time: 1030&#xA;&#xA;The enemy has a significant amount of firepower at the northeast village.&#xA;&#xA;Destroy enemy ships and anti-ship weapons to allow our advance. You may take out enemy armored vehicles along the way.&#xA;&#xA;TGT:&#xA;- 2x Destroyer&#xA;- 6x Anti-Ship Missile Launcher&#xA;&#xA;Additional:&#xA;- 4x Missile Launcher&#xA;- 4x AA Tank" mapName="Shikotan" levelTypeName="Mission1b, TekinoKichi2-Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" supportedPlatform="0" />
+          <Level name="Mission 1c" description="Vehicle: Attacker&#xA;Location: Shikotan&#xA;Weather: Broken Clouds&#xA;Time: 1100&#xA;&#xA;Destroy the enemy reinforcements to ensure success in capturing the island.&#xA;&#xA;TGT:&#xA;- 4x VLS Destroyer&#xA;&#xA;Additional:&#xA;- 2x CIWS Destroyer&#xA;- 2x Flak Destroyer" mapName="Shikotan" levelTypeName="Mission1c, TekinoKichi2-Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" supportedPlatform="0" />
+          <Level name="Mission 2a" description="Vehicle: Interceptor&#xA;Location: Iturup&#xA;Weather: Clear&#xA;Time: 0700&#xA;&#xA;Long range anti-ship missile launchers have been spotted on Iturup, the next island to capture.&#xA;&#xA;Destroy the launchers quickly.&#xA;&#xA;TGT:&#xA;- 8x Anti-Ship Missile&#xA;&#xA;Additional:&#xA;- 8x Missile Launcher&#xA;- Missile Ship" mapName="Iturup" levelTypeName="Mission2a, TekinoKichi2-Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" supportedPlatform="0" />
+          <Level name="Mission 2b" description="Vehicle: Bomber/Attacker&#xA;Location: Iturup&#xA;Weather: Few Clouds&#xA;Time: 0200&#xA;&#xA;Both airfields on the island are being controlled by the enemy, who are operating them as air bases. To rid the island of any air resistance, a simultaneous attack on both airfields will be conducted.&#xA;&#xA;Bomb the runway. Make sure to hit all three target points, else the attack would be ineffective. If possible, stay at high altitudes to avoid detection.&#xA;&#xA;TGT:&#xA;- 3x Runway Target Point&#xA;&#xA;Additional:&#xA;- 8x Missile Launcher&#xA;- 5x Fighter&#xA;- 3x Bomber" mapName="Iturup" levelTypeName="Mission2b, TekinoKichi2-Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" supportedPlatform="0" />
+          <Level name="Mission 2c" description="Vehicle: Bomber/Attacker&#xA;Location: Iturup&#xA;Weather: Few Clouds&#xA;Time: 0200&#xA;&#xA;Destroy the runway to ground the remaining enemy aircraft. As the enemy forces' leadership is stationed within the airport building, you will be tasked to destroy it as well.&#xA;&#xA;You must stay in the narrow corridor between the towns. Just like before, fly at high altitudes to avoid detection.&#xA;&#xA;TGT:&#xA;- Runway Target Point&#xA;- Enemy HQ&#xA;&#xA;Additional:&#xA;- 7x Missile Launcher&#xA;- 6x Fighter" mapName="Iturup" levelTypeName="Mission2c, TekinoKichi2-Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" supportedPlatform="0" />
+          <Level name="Mission 2d" description="Vehicle: Attacker&#xA;Location: Iturup&#xA;Weather: Scattered Clouds&#xA;Time: 0900&#xA;&#xA;Allow the capture force to proceed by destroying the enemy's anti-ship weapons.&#xA;&#xA;The capture of a regional enemy headquarters will grant us a significant strategic advantage.&#xA;&#xA;TGT:&#xA;- 6x Anti-Ship Missile Launcher&#xA;&#xA;Additional:&#xA;- 3x Destroyer&#xA;- 3x Missile Launcher&#xA;- 2x Missile Ship&#xA;- 7x AA Tank" mapName="Iturup" levelTypeName="Mission2d, TekinoKichi2-Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" supportedPlatform="0" />
+          <Level name="Mission 3a" description="Vehicle: Attacker&#xA;Location: Simushir&#xA;Weather: Clear&#xA;Time: 0630&#xA;&#xA;Destroy anti-aircraft weaponry around the enemy-occupied communications station. It will prove to be a useful forward base for our supporting unit.&#xA;&#xA;TGT:&#xA;- 7x Missile Launcher&#xA;- 3x Long Range Missile Launcher&#xA;&#xA;Additional:&#xA;- 3x CIWS Destroyer&#xA;- 3x Destroyer" mapName="Simushir" levelTypeName="Mission3a, TekinoKichi2-Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" supportedPlatform="0" />
+          <Level name="Mission 3b" description="Vehicle: Attacker&#xA;Location: Simushir&#xA;Weather: Few Clouds&#xA;Time: 0730&#xA;&#xA;With the communications station captured, our naval forces can begin advancing towards the main base.&#xA;&#xA;Remove all enemy naval resistance around the island. Keep an eye out for enemy long-range SAMs, and destroy them if possible.&#xA;&#xA;TGT:&#xA;- 4x Missile Ship&#xA;&#xA;Additional:&#xA;- 5x Long Range Missile Launcher" mapName="Simushir" levelTypeName="Mission3b, TekinoKichi2-Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" supportedPlatform="0" />
+          <Level name="Mission 3c" description="Vehicle: Attacker&#xA;Location: Simushir&#xA;Weather: Scattered Clouds&#xA;Time: 1000&#xA;&#xA;We now have an opportunity to destroy most of the remaining enemy naval forces.&#xA;&#xA;You will be heavily outnumbered. Focus only on the most valuable targets.&#xA;&#xA;TGT:&#xA;- 3x VLS Destroyer&#xA;- Helicopter Carrier&#xA;&#xA;Additional:&#xA;- 12x Missile Launcher&#xA;- 3x CIWS Destroyer&#xA;- Flak Destroyer&#xA;- Destroyer&#xA;- Tower" mapName="Simushir" levelTypeName="Mission3c, TekinoKichi2-Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" supportedPlatform="0" />
+          <Level name="Mission 4a" description="Vehicle: Attacker&#xA;Location: Onekotan&#xA;Weather: Broken Clouds&#xA;Time: 1500&#xA;&#xA;The enemy leaders are stationed in a captured nuclear silo. Capturing them will end the war once and for all.&#xA;&#xA;Again, the enemies have the numbers. Focus on the anti-ship missile launchers and laser defense ships, and allow our naval force to take on the rest.&#xA;&#xA;TGT:&#xA;- 3x Laser Defense Ship&#xA;- 6x Anti-Ship Missile Launcher&#xA;&#xA;Additional:&#xA;- 6x Destroyer&#xA;- 3x Flak Destroyer&#xA;- 4x Long Range Missile Launcher" mapName="Onekotan" levelTypeName="Mission4a, TekinoKichi2-Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" supportedPlatform="0" />
+          <Level name="Mission 4b" description="Vehicle: Attacker&#xA;Location: Onekotan&#xA;Weather: Broken Clouds&#xA;Time: 1730&#xA;&#xA;Due to the threat of an ICBM launch, you are granted permission to destroy the missile silos on the island.&#xA;&#xA;Both short- and long-range AA defenses are present, be ready to respond to them at all times.&#xA;&#xA;TGT:&#xA;- 5x Missile Silo&#xA;&#xA;Additional:&#xA;- 24x Missile Launcher&#xA;- 7x Long Range Missile Launcher&#xA;- Destroyer&#xA;- Control Room&#xA;- Core" mapName="Onekotan" levelTypeName="Mission4b, TekinoKichi2-Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" supportedPlatform="0" />
+        </Levels>
+        <Parts />
+        <DesignerPlugins />
+        <MapPlugins />
+        <PersistentObjects>
+          <PersistentObject objectName="PERSISTENT" />
+        </PersistentObjects>
+      </SimplePlanesMod>
+    </Sections>
+  </Mod>
+</ModManifest>
