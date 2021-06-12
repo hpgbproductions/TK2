@@ -6737,6 +6737,7 @@ GameObject:
   - component: {fileID: 323180620}
   - component: {fileID: 323180622}
   - component: {fileID: 323180623}
+  - component: {fileID: 323180624}
   m_Layer: 0
   m_Name: Mission2a
   m_TagString: Untagged
@@ -6867,6 +6868,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LevelState: 0
   LevelId: 3
+--- !u!114 &323180624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 323180618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95ba934aa0c99ec42aedc1917e196b06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Initialized: 0
 --- !u!1 &329946944
 GameObject:
   m_ObjectHideFlags: 0
@@ -8285,6 +8299,8 @@ GameObject:
   - component: {fileID: 476321879}
   - component: {fileID: 476321881}
   - component: {fileID: 476321882}
+  - component: {fileID: 476321884}
+  - component: {fileID: 476321883}
   m_Layer: 0
   m_Name: Mission2d
   m_TagString: Untagged
@@ -8425,6 +8441,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LevelState: 0
   LevelId: 6
+--- !u!114 &476321883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 476321877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f978c99ce3b4432468bfb970f9843516, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AlliedShipProxies:
+  - {fileID: 348659577}
+  - {fileID: 659264378}
+  - {fileID: 627196580}
+  - {fileID: 437286322}
+  - {fileID: 1494749178}
+--- !u!114 &476321884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 476321877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95ba934aa0c99ec42aedc1917e196b06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Initialized: 0
 --- !u!1001 &479471410
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10991,6 +11038,7 @@ GameObject:
   - component: {fileID: 1004377354}
   - component: {fileID: 1004377356}
   - component: {fileID: 1004377357}
+  - component: {fileID: 1004377358}
   m_Layer: 0
   m_Name: Mission2c
   m_TagString: Untagged
@@ -11109,6 +11157,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LevelState: 0
   LevelId: 5
+--- !u!114 &1004377358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1004377352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95ba934aa0c99ec42aedc1917e196b06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Initialized: 0
 --- !u!1 &1007263469
 GameObject:
   m_ObjectHideFlags: 0
@@ -29898,6 +29959,7 @@ GameObject:
   - component: {fileID: 2020363544}
   - component: {fileID: 2020363546}
   - component: {fileID: 2020363547}
+  - component: {fileID: 2020363548}
   m_Layer: 0
   m_Name: Mission2b
   m_TagString: Untagged
@@ -30021,6 +30083,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LevelState: 0
   LevelId: 4
+--- !u!114 &2020363548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2020363542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95ba934aa0c99ec42aedc1917e196b06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Initialized: 0
 --- !u!1 &2036020133
 GameObject:
   m_ObjectHideFlags: 0

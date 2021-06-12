@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ModManifest buildID="3960ff32-87d3-4b12-a7ea-e019a07f0343">
-  <Mod name="Teki no Kichi 2" author="hpgbproductions" versionMajor="1" versionMinor="0" loadPriority="1000" lastUpdated="2021-01-18T10:40:57.1228726Z" apiVersion="1.0.0.0" description="A battle against an unknown enemy during a time of great change.">
+<ModManifest buildID="6675645e-6b10-4f2e-a562-0ab91001ad25">
+  <Mod name="Teki no Kichi 2" author="hpgbproductions" versionMajor="1" versionMinor="1" loadPriority="1000" lastUpdated="2021-06-12T19:55:53.8668969Z" apiVersion="1.0.0.0" description="A battle against an unknown enemy during a time of great change.&#xA;&#xA;This campaign mod includes AceRadar functionality! Install AceRadar for a better experience.">
     <Steam title="" visibility="Public" previewPath="" language="English" tags="">
       <description></description>
     </Steam>

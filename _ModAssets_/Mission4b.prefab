@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 13493215}
   - component: {fileID: 13493216}
-  - component: {fileID: 491744675032022087}
+  - component: {fileID: 4722480029161743628}
   m_Layer: 0
   m_Name: Missile Defense Base (1)
   m_TagString: Untagged
@@ -51,7 +51,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _initiallyHostile: 1
---- !u!114 &491744675032022087
+--- !u!114 &4722480029161743628
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -64,7 +64,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: f7a9e0d7-ee9c-42dd-82b4-2985e13b4ce8
+  ObjectId: 80c5cabe-7f94-4437-ad3d-e078fe73348d
 --- !u!1 &51172581
 GameObject:
   m_ObjectHideFlags: 0
@@ -77,7 +77,7 @@ GameObject:
   - component: {fileID: 51172585}
   - component: {fileID: 51172584}
   - component: {fileID: 51172583}
-  - component: {fileID: 7314131976676386402}
+  - component: {fileID: 5163784805593346597}
   m_Layer: 0
   m_Name: Cylinder (6)
   m_TagString: Untagged
@@ -160,7 +160,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &7314131976676386402
+--- !u!114 &5163784805593346597
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -173,7 +173,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 89a4f4ae-7a3a-4866-8f65-b22622125485
+  ObjectId: 8e4451db-7c1c-4c66-aa3a-1cf49f18f545
 --- !u!1 &73275166
 GameObject:
   m_ObjectHideFlags: 0
@@ -184,7 +184,7 @@ GameObject:
   m_Component:
   - component: {fileID: 73275167}
   - component: {fileID: 73275168}
-  - component: {fileID: 393127576959076713}
+  - component: {fileID: 2399067353109286126}
   m_Layer: 0
   m_Name: Destroyer
   m_TagString: Untagged
@@ -224,7 +224,7 @@ MonoBehaviour:
   _lockHostileState: 1
   _allies: []
   _speed: 0
---- !u!114 &393127576959076713
+--- !u!114 &2399067353109286126
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -237,7 +237,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 2396bec1-d253-4d0e-adfd-625dca005a48
+  ObjectId: 28001ed2-5f3e-40cc-825a-918a25083b87
 --- !u!1 &112251732
 GameObject:
   m_ObjectHideFlags: 0
@@ -250,7 +250,7 @@ GameObject:
   - component: {fileID: 112251736}
   - component: {fileID: 112251735}
   - component: {fileID: 112251734}
-  - component: {fileID: 6184195389567735282}
+  - component: {fileID: 5305903328474610362}
   m_Layer: 0
   m_Name: Cylinder (2)
   m_TagString: Untagged
@@ -333,7 +333,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &6184195389567735282
+--- !u!114 &5305903328474610362
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -346,7 +346,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 6595ef6c-b3af-4cbc-9484-f61239252185
+  ObjectId: eebf577e-39e1-46f1-b4c1-ada6686350cc
 --- !u!1 &143479297
 GameObject:
   m_ObjectHideFlags: 0
@@ -357,7 +357,7 @@ GameObject:
   m_Component:
   - component: {fileID: 143479298}
   - component: {fileID: 143479299}
-  - component: {fileID: 4621746105342755750}
+  - component: {fileID: 4998783032950670407}
   m_Layer: 0
   m_Name: LongRange (5)
   m_TagString: Untagged
@@ -406,7 +406,7 @@ MonoBehaviour:
   _missileFireDelay: 15
   _missileFireDelayRandomExtraTime: 1
   _missileMaxSpeed: 900
---- !u!114 &4621746105342755750
+--- !u!114 &4998783032950670407
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -419,7 +419,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: d0dec118-257d-435f-9bf1-cf5711b8dc79
+  ObjectId: 94e29449-0c33-4d6a-9005-d2aa46dfcd9d
 --- !u!1 &154108692
 GameObject:
   m_ObjectHideFlags: 0
@@ -430,7 +430,7 @@ GameObject:
   m_Component:
   - component: {fileID: 154108693}
   - component: {fileID: 154108694}
-  - component: {fileID: 4035489583104311259}
+  - component: {fileID: 7858926729248231292}
   m_Layer: 0
   m_Name: Laser Defense Turret
   m_TagString: Untagged
@@ -475,7 +475,7 @@ MonoBehaviour:
   _maxLockAngle: 5
   _requiredLockTime: 4
   _requiredRocketLockTime: 1
---- !u!114 &4035489583104311259
+--- !u!114 &7858926729248231292
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -488,7 +488,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 1acd2fdb-4e4a-44e0-9e36-12171709523a
+  ObjectId: cc376683-21d7-4e43-afd4-80656c016466
 --- !u!1 &164993631
 GameObject:
   m_ObjectHideFlags: 0
@@ -499,7 +499,7 @@ GameObject:
   m_Component:
   - component: {fileID: 164993632}
   - component: {fileID: 164993633}
-  - component: {fileID: 55197739209663748}
+  - component: {fileID: 7217864991969935550}
   m_Layer: 0
   m_Name: LongRange (6)
   m_TagString: Untagged
@@ -548,7 +548,7 @@ MonoBehaviour:
   _missileFireDelay: 15
   _missileFireDelayRandomExtraTime: 1
   _missileMaxSpeed: 900
---- !u!114 &55197739209663748
+--- !u!114 &7217864991969935550
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -561,7 +561,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: b8e75d26-4a90-411d-9bed-968746837955
+  ObjectId: 19cb3454-6330-4db6-8401-cc914f0f6e69
 --- !u!1 &198082418
 GameObject:
   m_ObjectHideFlags: 0
@@ -572,7 +572,7 @@ GameObject:
   m_Component:
   - component: {fileID: 198082419}
   - component: {fileID: 198082420}
-  - component: {fileID: 167553409036538917}
+  - component: {fileID: 5518129471891073702}
   m_Layer: 0
   m_Name: Missile Launcher (3)
   m_TagString: Untagged
@@ -621,7 +621,7 @@ MonoBehaviour:
   _missileFireDelay: 8
   _missileFireDelayRandomExtraTime: 1
   _missileMaxSpeed: 600
---- !u!114 &167553409036538917
+--- !u!114 &5518129471891073702
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -634,7 +634,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 9c021a89-232a-49cb-a738-1188cd2c50dd
+  ObjectId: ab5ef397-ceac-42c0-a8a0-4fa2f37e3a43
 --- !u!1 &203141876
 GameObject:
   m_ObjectHideFlags: 0
@@ -645,7 +645,7 @@ GameObject:
   m_Component:
   - component: {fileID: 203141877}
   - component: {fileID: 203141878}
-  - component: {fileID: 232567789442094128}
+  - component: {fileID: 3654395761543489102}
   m_Layer: 0
   m_Name: GateItems
   m_TagString: Untagged
@@ -687,7 +687,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _initiallyHostile: 1
---- !u!114 &232567789442094128
+--- !u!114 &3654395761543489102
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -700,7 +700,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: dcfe1c16-8f3b-4268-9f3a-1e6436763de1
+  ObjectId: fae9491f-b33f-4c09-8951-fd4ecc36589e
 --- !u!1 &206739376
 GameObject:
   m_ObjectHideFlags: 0
@@ -711,7 +711,7 @@ GameObject:
   m_Component:
   - component: {fileID: 206739377}
   - component: {fileID: 206739378}
-  - component: {fileID: 7102110538717864127}
+  - component: {fileID: 3757265683002492189}
   m_Layer: 0
   m_Name: Laser
   m_TagString: Untagged
@@ -756,7 +756,7 @@ MonoBehaviour:
   _maxLockAngle: 5
   _requiredLockTime: 3
   _requiredRocketLockTime: 1
---- !u!114 &7102110538717864127
+--- !u!114 &3757265683002492189
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -769,7 +769,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 8869e05a-ab1b-4293-8ecd-8c09829418a4
+  ObjectId: a3723079-d96f-454e-9269-9d7a453344fc
 --- !u!1 &231771983
 GameObject:
   m_ObjectHideFlags: 0
@@ -780,7 +780,7 @@ GameObject:
   m_Component:
   - component: {fileID: 231771984}
   - component: {fileID: 231771985}
-  - component: {fileID: 1947671235552663910}
+  - component: {fileID: 1004294233901015351}
   m_Layer: 0
   m_Name: Destroyer
   m_TagString: Untagged
@@ -820,7 +820,7 @@ MonoBehaviour:
   _lockHostileState: 1
   _allies: []
   _speed: 0
---- !u!114 &1947671235552663910
+--- !u!114 &1004294233901015351
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -833,7 +833,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 6182bcc7-303e-4252-8d93-b9c0f7651837
+  ObjectId: b696697e-469f-4927-b8c9-95bf5e24e1bd
 --- !u!1 &232909114
 GameObject:
   m_ObjectHideFlags: 0
@@ -844,7 +844,7 @@ GameObject:
   m_Component:
   - component: {fileID: 232909115}
   - component: {fileID: 232909116}
-  - component: {fileID: 2334942234035500962}
+  - component: {fileID: 4945523246259362567}
   m_Layer: 0
   m_Name: BaseTargetCore
   m_TagString: Untagged
@@ -884,7 +884,7 @@ MonoBehaviour:
   _lockHostileState: 1
   _allies: []
   _speed: 0
---- !u!114 &2334942234035500962
+--- !u!114 &4945523246259362567
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -901,7 +901,7 @@ MonoBehaviour:
     ScriptData: 0001000000ffffffff01000000000000000c020000005354656b696e6f4b69636869322d417373656d626c792d4353686172702c2056657273696f6e3d302e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c050100000011437573746f6d56616c7565546172676574020000000f4973526f6f74436f6d706f6e656e740556616c7565000001080200000001400600000b
     ScriptType: CustomValueTarget, TekinoKichi2-Assembly-CSharp, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectId: 7f529328-5f79-4e28-b3dc-70f2422cfe93
+  ObjectId: 4c348a67-dbd5-4590-ab31-78cc6053c363
 --- !u!1 &278197770
 GameObject:
   m_ObjectHideFlags: 0
@@ -912,7 +912,7 @@ GameObject:
   m_Component:
   - component: {fileID: 278197771}
   - component: {fileID: 278197772}
-  - component: {fileID: 4548507367489837022}
+  - component: {fileID: 453745059802112643}
   m_Layer: 0
   m_Name: LongRange (1)
   m_TagString: Untagged
@@ -961,7 +961,7 @@ MonoBehaviour:
   _missileFireDelay: 15
   _missileFireDelayRandomExtraTime: 1
   _missileMaxSpeed: 900
---- !u!114 &4548507367489837022
+--- !u!114 &453745059802112643
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -974,7 +974,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 8b3f67b1-a88f-4709-9c95-d5223bc971b4
+  ObjectId: cfb20cb8-544a-4287-a3d5-c47d95c1ec6c
 --- !u!1 &282051345
 GameObject:
   m_ObjectHideFlags: 0
@@ -985,7 +985,7 @@ GameObject:
   m_Component:
   - component: {fileID: 282051346}
   - component: {fileID: 282051347}
-  - component: {fileID: 2503885106831709664}
+  - component: {fileID: 6988204310664296291}
   m_Layer: 0
   m_Name: Destroyer
   m_TagString: Untagged
@@ -1025,7 +1025,7 @@ MonoBehaviour:
   _lockHostileState: 1
   _allies: []
   _speed: 0
---- !u!114 &2503885106831709664
+--- !u!114 &6988204310664296291
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1038,7 +1038,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 4ea55a4b-aaf1-4884-b9fb-a45cfdf03079
+  ObjectId: 3f36acbf-1cf3-457b-a5b7-3a4dcf0f3901
 --- !u!1 &298448748
 GameObject:
   m_ObjectHideFlags: 0
@@ -1049,7 +1049,7 @@ GameObject:
   m_Component:
   - component: {fileID: 298448749}
   - component: {fileID: 298448750}
-  - component: {fileID: 7885657768589823348}
+  - component: {fileID: 3979105160439181462}
   m_Layer: 0
   m_Name: Missile Launcher (2)
   m_TagString: Untagged
@@ -1098,7 +1098,7 @@ MonoBehaviour:
   _missileFireDelay: 8
   _missileFireDelayRandomExtraTime: 1
   _missileMaxSpeed: 600
---- !u!114 &7885657768589823348
+--- !u!114 &3979105160439181462
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1111,7 +1111,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: e7926894-e371-45d3-bcd2-13dfcf7f60cb
+  ObjectId: 57a8fff8-6f98-445b-a0ad-29964e6f7f72
 --- !u!1 &332119919
 GameObject:
   m_ObjectHideFlags: 0
@@ -1122,7 +1122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 332119920}
   - component: {fileID: 332119921}
-  - component: {fileID: 6934308643017570043}
+  - component: {fileID: 7753689915043066909}
   m_Layer: 0
   m_Name: Missile Defense Base (3)
   m_TagString: Untagged
@@ -1163,7 +1163,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _initiallyHostile: 1
---- !u!114 &6934308643017570043
+--- !u!114 &7753689915043066909
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1176,7 +1176,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 3c568456-42a7-403e-8b89-0b138bc43794
+  ObjectId: 4a40dbe0-65fe-4cb7-9fd3-427d35e39ca1
 --- !u!1 &399460527
 GameObject:
   m_ObjectHideFlags: 0
@@ -1187,7 +1187,7 @@ GameObject:
   m_Component:
   - component: {fileID: 399460528}
   - component: {fileID: 399460529}
-  - component: {fileID: 5049684383327564192}
+  - component: {fileID: 7047994079426085221}
   m_Layer: 0
   m_Name: Laser (5)
   m_TagString: Untagged
@@ -1232,7 +1232,7 @@ MonoBehaviour:
   _maxLockAngle: 5
   _requiredLockTime: 3
   _requiredRocketLockTime: 1
---- !u!114 &5049684383327564192
+--- !u!114 &7047994079426085221
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1245,7 +1245,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 740519c3-2391-46ff-8641-34669046e502
+  ObjectId: 21384c82-619b-42ca-b91a-3761b2f3f74c
 --- !u!1 &410483725
 GameObject:
   m_ObjectHideFlags: 0
@@ -1256,7 +1256,7 @@ GameObject:
   m_Component:
   - component: {fileID: 410483726}
   - component: {fileID: 410483727}
-  - component: {fileID: 8626294398587309562}
+  - component: {fileID: 3544932611246283397}
   m_Layer: 0
   m_Name: MapStartLocation
   m_TagString: Untagged
@@ -1293,7 +1293,7 @@ MonoBehaviour:
   InitialSpeed: 200
   LocationName: 
   StartOnGround: 0
---- !u!114 &8626294398587309562
+--- !u!114 &3544932611246283397
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1306,7 +1306,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: f14ae090-ca75-4899-bede-54c86ee1b17d
+  ObjectId: 6e37552f-e4ce-42d3-948d-8482a3616031
 --- !u!1 &462117967
 GameObject:
   m_ObjectHideFlags: 0
@@ -1319,7 +1319,7 @@ GameObject:
   - component: {fileID: 462117971}
   - component: {fileID: 462117970}
   - component: {fileID: 462117969}
-  - component: {fileID: 1059980515304770627}
+  - component: {fileID: 4756773853682101270}
   m_Layer: 0
   m_Name: Cylinder (1)
   m_TagString: Untagged
@@ -1402,7 +1402,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &1059980515304770627
+--- !u!114 &4756773853682101270
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1415,7 +1415,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 802f58bf-65f3-4f08-92d3-9f2c80a3b958
+  ObjectId: 7ddb1937-60f5-4713-9573-4dd2186e58c9
 --- !u!1 &514065350
 GameObject:
   m_ObjectHideFlags: 0
@@ -1427,7 +1427,7 @@ GameObject:
   - component: {fileID: 514065351}
   - component: {fileID: 514065353}
   - component: {fileID: 514065352}
-  - component: {fileID: 6922663083615223536}
+  - component: {fileID: 8461879081039572330}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -1496,7 +1496,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &6922663083615223536
+--- !u!114 &8461879081039572330
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1509,7 +1509,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 5cd89a7c-6f2c-4a8f-8235-fe9eb3cec9e4
+  ObjectId: ee97df68-0d74-46f8-b3dc-1a81efefd9cd
 --- !u!1 &528284438
 GameObject:
   m_ObjectHideFlags: 0
@@ -1520,7 +1520,7 @@ GameObject:
   m_Component:
   - component: {fileID: 528284439}
   - component: {fileID: 528284440}
-  - component: {fileID: 5202148777892425106}
+  - component: {fileID: 8046393338320567702}
   m_Layer: 0
   m_Name: Laser (6)
   m_TagString: Untagged
@@ -1565,7 +1565,7 @@ MonoBehaviour:
   _maxLockAngle: 5
   _requiredLockTime: 3
   _requiredRocketLockTime: 1
---- !u!114 &5202148777892425106
+--- !u!114 &8046393338320567702
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1578,7 +1578,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: c245fba7-98a0-44d4-b905-2ddb74450bf0
+  ObjectId: 318c555e-d82b-4b3d-87eb-b7f19b741118
 --- !u!1 &540474015
 GameObject:
   m_ObjectHideFlags: 0
@@ -1589,7 +1589,7 @@ GameObject:
   m_Component:
   - component: {fileID: 540474016}
   - component: {fileID: 540474017}
-  - component: {fileID: 9112303936268202642}
+  - component: {fileID: 6555445569542743383}
   m_Layer: 0
   m_Name: Missile Launcher
   m_TagString: Untagged
@@ -1638,7 +1638,7 @@ MonoBehaviour:
   _missileFireDelay: 8
   _missileFireDelayRandomExtraTime: 1
   _missileMaxSpeed: 600
---- !u!114 &9112303936268202642
+--- !u!114 &6555445569542743383
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1651,7 +1651,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: a7bbaa05-5abf-4cdc-be00-7b277ce4fe24
+  ObjectId: db1e0d31-70db-4ee2-9280-8d7885f67509
 --- !u!1 &560089516
 GameObject:
   m_ObjectHideFlags: 0
@@ -1662,7 +1662,7 @@ GameObject:
   m_Component:
   - component: {fileID: 560089517}
   - component: {fileID: 560089518}
-  - component: {fileID: 8284040680994429985}
+  - component: {fileID: 8401913013417247701}
   m_Layer: 0
   m_Name: Missile Launcher
   m_TagString: Untagged
@@ -1711,7 +1711,7 @@ MonoBehaviour:
   _missileFireDelay: 8
   _missileFireDelayRandomExtraTime: 1
   _missileMaxSpeed: 600
---- !u!114 &8284040680994429985
+--- !u!114 &8401913013417247701
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1724,7 +1724,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: da6942cd-aa03-4e37-ad4d-8d5d80fd0465
+  ObjectId: 28e83db1-60e9-4c5f-a522-322271ae013f
 --- !u!1 &566628573
 GameObject:
   m_ObjectHideFlags: 0
@@ -1735,7 +1735,7 @@ GameObject:
   m_Component:
   - component: {fileID: 566628574}
   - component: {fileID: 566628575}
-  - component: {fileID: 5103635989820906838}
+  - component: {fileID: 2129927622992366848}
   m_Layer: 0
   m_Name: Destroyer
   m_TagString: Untagged
@@ -1775,7 +1775,7 @@ MonoBehaviour:
   _lockHostileState: 1
   _allies: []
   _speed: 0
---- !u!114 &5103635989820906838
+--- !u!114 &2129927622992366848
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1788,7 +1788,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 2002702e-55bf-45df-9a69-5ad7fdac0db9
+  ObjectId: 62eca8fa-8569-4004-9715-7eab11c513bc
 --- !u!1 &656196216
 GameObject:
   m_ObjectHideFlags: 0
@@ -1799,7 +1799,7 @@ GameObject:
   m_Component:
   - component: {fileID: 656196217}
   - component: {fileID: 656196218}
-  - component: {fileID: 2694836575555753092}
+  - component: {fileID: 5510855511510618460}
   m_Layer: 0
   m_Name: Missile Launcher (3)
   m_TagString: Untagged
@@ -1848,7 +1848,7 @@ MonoBehaviour:
   _missileFireDelay: 8
   _missileFireDelayRandomExtraTime: 1
   _missileMaxSpeed: 600
---- !u!114 &2694836575555753092
+--- !u!114 &5510855511510618460
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1861,7 +1861,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 0218eb06-a87a-42f4-828e-6a18d2bd5f4d
+  ObjectId: 61bff386-abf0-4cc3-8738-3bcde9ed6ee2
 --- !u!1 &688933535
 GameObject:
   m_ObjectHideFlags: 0
@@ -1872,7 +1872,7 @@ GameObject:
   m_Component:
   - component: {fileID: 688933536}
   - component: {fileID: 688933537}
-  - component: {fileID: 7052788613779413804}
+  - component: {fileID: 1807939669692740516}
   m_Layer: 0
   m_Name: Missile Launcher (2)
   m_TagString: Untagged
@@ -1921,7 +1921,7 @@ MonoBehaviour:
   _missileFireDelay: 8
   _missileFireDelayRandomExtraTime: 1
   _missileMaxSpeed: 600
---- !u!114 &7052788613779413804
+--- !u!114 &1807939669692740516
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1934,7 +1934,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: a50a725d-4b2e-492d-bba5-9438504ce7a9
+  ObjectId: 4cf959af-bdf1-4649-8587-2165a737e0fa
 --- !u!1 &697222194
 GameObject:
   m_ObjectHideFlags: 0
@@ -1945,7 +1945,7 @@ GameObject:
   m_Component:
   - component: {fileID: 697222195}
   - component: {fileID: 697222196}
-  - component: {fileID: 4696706448050304620}
+  - component: {fileID: 4875744717801208561}
   m_Layer: 0
   m_Name: Laser (4)
   m_TagString: Untagged
@@ -1990,7 +1990,7 @@ MonoBehaviour:
   _maxLockAngle: 5
   _requiredLockTime: 3
   _requiredRocketLockTime: 1
---- !u!114 &4696706448050304620
+--- !u!114 &4875744717801208561
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2003,7 +2003,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 668b0f83-3d47-46e9-aab6-52c22172ebd0
+  ObjectId: 050d65f6-3594-4917-906f-b259e8e01058
 --- !u!1 &708398900
 GameObject:
   m_ObjectHideFlags: 0
@@ -2014,7 +2014,7 @@ GameObject:
   m_Component:
   - component: {fileID: 708398901}
   - component: {fileID: 708398902}
-  - component: {fileID: 4898809463093776506}
+  - component: {fileID: 5580517347312752572}
   m_Layer: 0
   m_Name: Missile Defense Base (2)
   m_TagString: Untagged
@@ -2055,7 +2055,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _initiallyHostile: 1
---- !u!114 &4898809463093776506
+--- !u!114 &5580517347312752572
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2068,7 +2068,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 61517883-c980-47c3-b9b3-0587d58b0851
+  ObjectId: 7a45aeda-640e-4f53-8b16-2031a01470e3
 --- !u!1 &738016473
 GameObject:
   m_ObjectHideFlags: 0
@@ -2079,7 +2079,7 @@ GameObject:
   m_Component:
   - component: {fileID: 738016474}
   - component: {fileID: 738016475}
-  - component: {fileID: 7347870020135899975}
+  - component: {fileID: 5401074546625364632}
   m_Layer: 0
   m_Name: Missile Launcher (3)
   m_TagString: Untagged
@@ -2128,7 +2128,7 @@ MonoBehaviour:
   _missileFireDelay: 8
   _missileFireDelayRandomExtraTime: 1
   _missileMaxSpeed: 600
---- !u!114 &7347870020135899975
+--- !u!114 &5401074546625364632
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2141,7 +2141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: c2bd0af4-758d-45f8-a2e9-33a632639eb8
+  ObjectId: c519e3da-0ca3-45fd-b089-77577ad107b8
 --- !u!1 &749010648
 GameObject:
   m_ObjectHideFlags: 0
@@ -2152,7 +2152,7 @@ GameObject:
   m_Component:
   - component: {fileID: 749010649}
   - component: {fileID: 749010650}
-  - component: {fileID: 758392180942229542}
+  - component: {fileID: 245045188866992230}
   m_Layer: 0
   m_Name: LongRange (3)
   m_TagString: Untagged
@@ -2201,7 +2201,7 @@ MonoBehaviour:
   _missileFireDelay: 15
   _missileFireDelayRandomExtraTime: 1
   _missileMaxSpeed: 900
---- !u!114 &758392180942229542
+--- !u!114 &245045188866992230
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2214,7 +2214,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 65578ccb-0864-464f-adb7-1577dc853d67
+  ObjectId: d56c2196-9e99-4307-a097-1c0a718e089f
 --- !u!1 &753474957
 GameObject:
   m_ObjectHideFlags: 0
@@ -2225,7 +2225,7 @@ GameObject:
   m_Component:
   - component: {fileID: 753474958}
   - component: {fileID: 753474960}
-  - component: {fileID: 937351199267780039}
+  - component: {fileID: 6310337069870521164}
   m_Layer: 0
   m_Name: BaseTargetCtrl
   m_TagString: Untagged
@@ -2265,7 +2265,7 @@ MonoBehaviour:
   _lockHostileState: 1
   _allies: []
   _speed: 0
---- !u!114 &937351199267780039
+--- !u!114 &6310337069870521164
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2282,7 +2282,7 @@ MonoBehaviour:
     ScriptData: 0001000000ffffffff01000000000000000c020000005354656b696e6f4b69636869322d417373656d626c792d4353686172702c2056657273696f6e3d302e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c050100000011437573746f6d56616c7565546172676574020000000f4973526f6f74436f6d706f6e656e740556616c7565000001080200000001200300000b
     ScriptType: CustomValueTarget, TekinoKichi2-Assembly-CSharp, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectId: 568539f0-0090-495b-8059-9e9139bbc385
+  ObjectId: 307b9af6-e32f-4a8a-b15c-32cc9740fb00
 --- !u!1 &829231643
 GameObject:
   m_ObjectHideFlags: 0
@@ -2293,7 +2293,7 @@ GameObject:
   m_Component:
   - component: {fileID: 829231644}
   - component: {fileID: 829231645}
-  - component: {fileID: 3847327280128881990}
+  - component: {fileID: 2698191940316854258}
   m_Layer: 0
   m_Name: Missile Defense Base
   m_TagString: Untagged
@@ -2334,7 +2334,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _initiallyHostile: 1
---- !u!114 &3847327280128881990
+--- !u!114 &2698191940316854258
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2347,7 +2347,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 28b76976-64f7-4559-8322-ce2cf4374d01
+  ObjectId: 47644545-0493-43f2-bbea-744e6a1e3262
 --- !u!1 &851709632
 GameObject:
   m_ObjectHideFlags: 0
@@ -2360,7 +2360,7 @@ GameObject:
   - component: {fileID: 851709636}
   - component: {fileID: 851709635}
   - component: {fileID: 851709634}
-  - component: {fileID: 844521292570250100}
+  - component: {fileID: 4372086208323960503}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -2442,7 +2442,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &844521292570250100
+--- !u!114 &4372086208323960503
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2455,7 +2455,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: f9ef9ffe-534b-4484-a5a4-54501cf84180
+  ObjectId: 7ed9723f-400f-45d1-955f-104cbae41fb7
 --- !u!1 &873748850
 GameObject:
   m_ObjectHideFlags: 0
@@ -2466,7 +2466,7 @@ GameObject:
   m_Component:
   - component: {fileID: 873748851}
   - component: {fileID: 873748852}
-  - component: {fileID: 4501935952559082423}
+  - component: {fileID: 6910817620826809431}
   m_Layer: 0
   m_Name: Missile Launcher (3)
   m_TagString: Untagged
@@ -2515,7 +2515,7 @@ MonoBehaviour:
   _missileFireDelay: 8
   _missileFireDelayRandomExtraTime: 1
   _missileMaxSpeed: 600
---- !u!114 &4501935952559082423
+--- !u!114 &6910817620826809431
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2528,7 +2528,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 9434ea7c-db8f-4588-8d0a-cb7de90fcf4d
+  ObjectId: 6417ee01-63fa-41eb-bdaa-c48a913191ec
 --- !u!1 &972894228
 GameObject:
   m_ObjectHideFlags: 0
@@ -2541,7 +2541,7 @@ GameObject:
   - component: {fileID: 972894232}
   - component: {fileID: 972894231}
   - component: {fileID: 972894230}
-  - component: {fileID: 3857083144856358247}
+  - component: {fileID: 597688090439648060}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -2624,7 +2624,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &3857083144856358247
+--- !u!114 &597688090439648060
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2637,7 +2637,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: dffac87f-7e27-4bea-b362-0b3a6ed9cf3b
+  ObjectId: 8b9dd527-a4e6-483d-b290-ea02d5dde08b
 --- !u!1 &980419358
 GameObject:
   m_ObjectHideFlags: 0
@@ -2648,7 +2648,7 @@ GameObject:
   m_Component:
   - component: {fileID: 980419359}
   - component: {fileID: 980419360}
-  - component: {fileID: 7627677655889994510}
+  - component: {fileID: 8983281690231214328}
   m_Layer: 0
   m_Name: Missile Launcher (1)
   m_TagString: Untagged
@@ -2697,7 +2697,7 @@ MonoBehaviour:
   _missileFireDelay: 8
   _missileFireDelayRandomExtraTime: 1
   _missileMaxSpeed: 600
---- !u!114 &7627677655889994510
+--- !u!114 &8983281690231214328
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2710,7 +2710,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 5bc70452-df45-485b-8344-2a870dd07248
+  ObjectId: 3012ec04-7bbe-4c87-8a17-afd98a5b589e
 --- !u!1 &1009391591
 GameObject:
   m_ObjectHideFlags: 0
@@ -2722,7 +2722,7 @@ GameObject:
   - component: {fileID: 1009391592}
   - component: {fileID: 1009391594}
   - component: {fileID: 1009391593}
-  - component: {fileID: 3875243648863304048}
+  - component: {fileID: 8315378927553627625}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -2791,7 +2791,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &3875243648863304048
+--- !u!114 &8315378927553627625
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2804,7 +2804,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 90fc23b3-58cf-4053-b427-5218572feb01
+  ObjectId: 9c1b4742-0fe7-4c2a-a24e-14def90b3330
 --- !u!1 &1040352239
 GameObject:
   m_ObjectHideFlags: 0
@@ -2817,7 +2817,7 @@ GameObject:
   - component: {fileID: 1040352243}
   - component: {fileID: 1040352242}
   - component: {fileID: 1040352241}
-  - component: {fileID: 2876770608590484758}
+  - component: {fileID: 7377301541509242495}
   m_Layer: 0
   m_Name: Cylinder (5)
   m_TagString: Untagged
@@ -2900,7 +2900,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &2876770608590484758
+--- !u!114 &7377301541509242495
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2913,7 +2913,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: bae4db9c-8a7e-45c7-891d-fa096bfee848
+  ObjectId: c468eaf7-a191-42d5-bf52-e4fa804599e7
 --- !u!1 &1107977479
 GameObject:
   m_ObjectHideFlags: 0
@@ -2925,7 +2925,7 @@ GameObject:
   - component: {fileID: 1107977480}
   - component: {fileID: 1107977482}
   - component: {fileID: 1107977481}
-  - component: {fileID: 6793297958102828954}
+  - component: {fileID: 3978074521434762143}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -2994,7 +2994,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &6793297958102828954
+--- !u!114 &3978074521434762143
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3007,7 +3007,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: d45dd92a-6d6b-48b9-bccd-0c47764467b1
+  ObjectId: ba38c3f4-3c70-41d5-95fe-b472944298dc
 --- !u!1 &1128822179
 GameObject:
   m_ObjectHideFlags: 0
@@ -3020,7 +3020,7 @@ GameObject:
   - component: {fileID: 1128822183}
   - component: {fileID: 1128822182}
   - component: {fileID: 1128822181}
-  - component: {fileID: 5006931462279661744}
+  - component: {fileID: 4841378136767656694}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -3103,7 +3103,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &5006931462279661744
+--- !u!114 &4841378136767656694
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3116,7 +3116,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 8d19a21d-bb28-4d48-a69e-7b4d44453a6a
+  ObjectId: 9331c8f3-5ade-487d-8178-984608494f6d
 --- !u!1 &1135729272
 GameObject:
   m_ObjectHideFlags: 0
@@ -3128,7 +3128,7 @@ GameObject:
   - component: {fileID: 1135729273}
   - component: {fileID: 1135729275}
   - component: {fileID: 1135729274}
-  - component: {fileID: 5881171236743922110}
+  - component: {fileID: 5093773961218401635}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -3197,7 +3197,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &5881171236743922110
+--- !u!114 &5093773961218401635
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3210,7 +3210,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 3b81e2e4-3bf9-401d-bcba-2641465f09b3
+  ObjectId: 45b9acbc-9cf7-4bde-84d1-b22ecf7a466a
 --- !u!1 &1145579689
 GameObject:
   m_ObjectHideFlags: 0
@@ -3221,7 +3221,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1145579690}
   - component: {fileID: 1145579691}
-  - component: {fileID: 5136852804417906932}
+  - component: {fileID: 7781789731166496286}
   m_Layer: 0
   m_Name: LongRange
   m_TagString: Untagged
@@ -3270,7 +3270,7 @@ MonoBehaviour:
   _missileFireDelay: 15
   _missileFireDelayRandomExtraTime: 1
   _missileMaxSpeed: 900
---- !u!114 &5136852804417906932
+--- !u!114 &7781789731166496286
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3283,7 +3283,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 062c89e0-ebb3-48f2-a144-8223b98fa6a2
+  ObjectId: 32c93593-1b50-4255-be4a-334383c61bcc
 --- !u!1 &1146437576
 GameObject:
   m_ObjectHideFlags: 0
@@ -3295,7 +3295,7 @@ GameObject:
   - component: {fileID: 1146437577}
   - component: {fileID: 1146437579}
   - component: {fileID: 1146437578}
-  - component: {fileID: 8272715426633409660}
+  - component: {fileID: 3764222621701600726}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -3364,7 +3364,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &8272715426633409660
+--- !u!114 &3764222621701600726
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3377,7 +3377,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 2aa848b4-bb43-4efd-9dfa-d691b901344d
+  ObjectId: b9ed33c1-40da-48c1-a666-427b460ed7eb
 --- !u!1 &1156133599
 GameObject:
   m_ObjectHideFlags: 0
@@ -3388,7 +3388,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1156133600}
   - component: {fileID: 1156133601}
-  - component: {fileID: 2716046861105717273}
+  - component: {fileID: 3908100186852167151}
   m_Layer: 0
   m_Name: Missile Launcher
   m_TagString: Untagged
@@ -3437,7 +3437,7 @@ MonoBehaviour:
   _missileFireDelay: 8
   _missileFireDelayRandomExtraTime: 1
   _missileMaxSpeed: 600
---- !u!114 &2716046861105717273
+--- !u!114 &3908100186852167151
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3450,7 +3450,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 8e5fbabb-5046-49d2-946f-9e244dc2082f
+  ObjectId: f0b59e30-6813-4155-9c8a-99e3bf931340
 --- !u!1 &1171359202
 GameObject:
   m_ObjectHideFlags: 0
@@ -3461,7 +3461,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1171359203}
   - component: {fileID: 1171359204}
-  - component: {fileID: 3388428273606376512}
+  - component: {fileID: 7462722566727056197}
   m_Layer: 0
   m_Name: Missile Launcher (2)
   m_TagString: Untagged
@@ -3510,7 +3510,7 @@ MonoBehaviour:
   _missileFireDelay: 8
   _missileFireDelayRandomExtraTime: 1
   _missileMaxSpeed: 600
---- !u!114 &3388428273606376512
+--- !u!114 &7462722566727056197
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3523,7 +3523,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: dc544b5d-70bb-45ab-bc1a-c5d3e3ad4271
+  ObjectId: 4073ea1e-dfb9-468d-9475-fe9a7108956a
 --- !u!1 &1174592801
 GameObject:
   m_ObjectHideFlags: 0
@@ -3534,7 +3534,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1174592802}
   - component: {fileID: 1174592803}
-  - component: {fileID: 8586297498884014890}
+  - component: {fileID: 7041409882314386976}
   m_Layer: 0
   m_Name: LongRange (2)
   m_TagString: Untagged
@@ -3583,7 +3583,7 @@ MonoBehaviour:
   _missileFireDelay: 15
   _missileFireDelayRandomExtraTime: 1
   _missileMaxSpeed: 900
---- !u!114 &8586297498884014890
+--- !u!114 &7041409882314386976
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3596,7 +3596,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 2f1071b3-f73a-4bfa-be07-dac26dff30df
+  ObjectId: 7875f55f-9534-4f33-8724-52b3d21b0abb
 --- !u!1 &1199147554
 GameObject:
   m_ObjectHideFlags: 0
@@ -3607,7 +3607,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1199147555}
   - component: {fileID: 1199147556}
-  - component: {fileID: 304866426576960406}
+  - component: {fileID: 8856536601841391504}
   m_Layer: 0
   m_Name: Laser (2)
   m_TagString: Untagged
@@ -3652,7 +3652,7 @@ MonoBehaviour:
   _maxLockAngle: 5
   _requiredLockTime: 3
   _requiredRocketLockTime: 1
---- !u!114 &304866426576960406
+--- !u!114 &8856536601841391504
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3665,7 +3665,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 31886c59-9408-4feb-a9c1-1e41b1ab89c8
+  ObjectId: 220ac1a9-168b-423b-8ef0-af4303f88211
 --- !u!1 &1201603040
 GameObject:
   m_ObjectHideFlags: 0
@@ -3678,7 +3678,7 @@ GameObject:
   - component: {fileID: 1201603044}
   - component: {fileID: 1201603043}
   - component: {fileID: 1201603042}
-  - component: {fileID: 487152935846080580}
+  - component: {fileID: 912032848786905903}
   m_Layer: 0
   m_Name: Cube (1)
   m_TagString: Untagged
@@ -3760,7 +3760,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &487152935846080580
+--- !u!114 &912032848786905903
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3773,7 +3773,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 88e3a9d6-2c2e-4385-9ddb-1474243d20b2
+  ObjectId: fe0edbd8-811d-4104-9b25-b72e86c6c1b4
 --- !u!1 &1224934838
 GameObject:
   m_ObjectHideFlags: 0
@@ -3784,7 +3784,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1224934839}
   - component: {fileID: 1224934840}
-  - component: {fileID: 1366789828008580673}
+  - component: {fileID: 9222763541537843588}
   m_Layer: 0
   m_Name: Missile Launcher (3)
   m_TagString: Untagged
@@ -3833,7 +3833,7 @@ MonoBehaviour:
   _missileFireDelay: 8
   _missileFireDelayRandomExtraTime: 1
   _missileMaxSpeed: 600
---- !u!114 &1366789828008580673
+--- !u!114 &9222763541537843588
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3846,7 +3846,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 115e49d4-eea0-4aff-a085-2c6cbc5e0829
+  ObjectId: 3cbffa43-78d4-4e9e-97bb-1c01732776c1
 --- !u!1 &1227507081
 GameObject:
   m_ObjectHideFlags: 0
@@ -3857,7 +3857,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1227507082}
   - component: {fileID: 1227507083}
-  - component: {fileID: 1470678500408344645}
+  - component: {fileID: 8516517501649953705}
   m_Layer: 0
   m_Name: Destroyer
   m_TagString: Untagged
@@ -3897,7 +3897,7 @@ MonoBehaviour:
   _lockHostileState: 1
   _allies: []
   _speed: 0
---- !u!114 &1470678500408344645
+--- !u!114 &8516517501649953705
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3910,7 +3910,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 8f226fd9-bcdd-4e50-bb0d-df6a623d79f3
+  ObjectId: 95ca47c5-e29d-4e89-9d3a-9ddda2900af1
 --- !u!1 &1257046504
 GameObject:
   m_ObjectHideFlags: 0
@@ -3921,7 +3921,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1257046505}
   - component: {fileID: 1257046506}
-  - component: {fileID: 6178334171911851367}
+  - component: {fileID: 8528874624966865379}
   m_Layer: 0
   m_Name: Missile Launcher (2)
   m_TagString: Untagged
@@ -3970,7 +3970,7 @@ MonoBehaviour:
   _missileFireDelay: 8
   _missileFireDelayRandomExtraTime: 1
   _missileMaxSpeed: 600
---- !u!114 &6178334171911851367
+--- !u!114 &8528874624966865379
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3983,7 +3983,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: fae96c77-a68d-4b69-a265-68714aab2dc9
+  ObjectId: 5fdfa1ef-010e-4b46-8eb3-d425c50658a6
 --- !u!1 &1382864602
 GameObject:
   m_ObjectHideFlags: 0
@@ -3996,7 +3996,7 @@ GameObject:
   - component: {fileID: 1382864606}
   - component: {fileID: 1382864605}
   - component: {fileID: 1382864604}
-  - component: {fileID: 6085293509325211060}
+  - component: {fileID: 2041532072719762183}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -4079,7 +4079,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &6085293509325211060
+--- !u!114 &2041532072719762183
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4092,7 +4092,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 1f92e8d3-d2f6-4d2a-8d6a-4e063c3ef9a5
+  ObjectId: 0617cc18-876a-4e8a-870e-c04554a89030
 --- !u!1 &1422069689
 GameObject:
   m_ObjectHideFlags: 0
@@ -4103,7 +4103,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1422069690}
   - component: {fileID: 1422069691}
-  - component: {fileID: 2358707446049559736}
+  - component: {fileID: 4671210377841660805}
   m_Layer: 0
   m_Name: Missile Launcher
   m_TagString: Untagged
@@ -4152,7 +4152,7 @@ MonoBehaviour:
   _missileFireDelay: 8
   _missileFireDelayRandomExtraTime: 1
   _missileMaxSpeed: 600
---- !u!114 &2358707446049559736
+--- !u!114 &4671210377841660805
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4165,7 +4165,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 2d674a33-a083-47fd-95d4-c282a662765a
+  ObjectId: a389a4c8-9dc8-4ace-9dc2-c2e41bf312d2
 --- !u!1 &1445835195
 GameObject:
   m_ObjectHideFlags: 0
@@ -4176,7 +4176,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1445835196}
   - component: {fileID: 1445835197}
-  - component: {fileID: 7291747953184549086}
+  - component: {fileID: 7663129866314994868}
   m_Layer: 0
   m_Name: Missile Defense Base (4)
   m_TagString: Untagged
@@ -4217,7 +4217,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _initiallyHostile: 1
---- !u!114 &7291747953184549086
+--- !u!114 &7663129866314994868
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4230,7 +4230,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: d7d77a23-b53b-4a4e-a78c-1e95fb381e2f
+  ObjectId: 392e7712-dc44-43ab-8850-5dea65256b37
 --- !u!1 &1449816466
 GameObject:
   m_ObjectHideFlags: 0
@@ -4243,7 +4243,7 @@ GameObject:
   - component: {fileID: 1449816470}
   - component: {fileID: 1449816469}
   - component: {fileID: 1449816468}
-  - component: {fileID: 7373968200212582705}
+  - component: {fileID: 3242271839268487582}
   m_Layer: 0
   m_Name: Cylinder (3)
   m_TagString: Untagged
@@ -4326,7 +4326,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &7373968200212582705
+--- !u!114 &3242271839268487582
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4339,7 +4339,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 02f44059-5dbe-462b-8f13-8ef0506c157a
+  ObjectId: fc690380-fc53-46ea-81b5-c1b0350983cf
 --- !u!1 &1455081395
 GameObject:
   m_ObjectHideFlags: 0
@@ -4350,7 +4350,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1455081396}
   - component: {fileID: 1455081397}
-  - component: {fileID: 6363171587429508644}
+  - component: {fileID: 1149853849548638971}
   m_Layer: 0
   m_Name: Missile Launcher (1)
   m_TagString: Untagged
@@ -4399,7 +4399,7 @@ MonoBehaviour:
   _missileFireDelay: 8
   _missileFireDelayRandomExtraTime: 1
   _missileMaxSpeed: 600
---- !u!114 &6363171587429508644
+--- !u!114 &1149853849548638971
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4412,7 +4412,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 277d0401-ef89-487d-a029-df2767d9b460
+  ObjectId: 10ca520a-3a13-4f29-8f2b-3e4773f8a1a6
 --- !u!1 &1455195860
 GameObject:
   m_ObjectHideFlags: 0
@@ -4423,7 +4423,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1455195861}
   - component: {fileID: 1455195862}
-  - component: {fileID: 5639936468714212673}
+  - component: {fileID: 8409130577484511015}
   m_Layer: 0
   m_Name: Missile Launcher (1)
   m_TagString: Untagged
@@ -4472,7 +4472,7 @@ MonoBehaviour:
   _missileFireDelay: 8
   _missileFireDelayRandomExtraTime: 1
   _missileMaxSpeed: 600
---- !u!114 &5639936468714212673
+--- !u!114 &8409130577484511015
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4485,7 +4485,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: d6baa206-7b4f-4bf1-8981-e87cefeb8c50
+  ObjectId: a93fe8f0-6649-4d36-b8c2-5dc495ec0160
 --- !u!1 &1466817203
 GameObject:
   m_ObjectHideFlags: 0
@@ -4495,7 +4495,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1466817204}
-  - component: {fileID: 9127134997942826412}
+  - component: {fileID: 4520361663729918601}
   m_Layer: 0
   m_Name: Mission4b
   m_TagString: Untagged
@@ -4533,7 +4533,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &9127134997942826412
+--- !u!114 &4520361663729918601
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4547,6 +4547,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CustomScripts:
   - Component: {fileID: 0}
+    ScriptData: 0001000000ffffffff01000000000000000c020000005354656b696e6f4b69636869322d417373656d626c792d4353686172702c2056657273696f6e3d302e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c05010000000f41636552616461724261636b656e64020000000f4973526f6f74436f6d706f6e656e740b496e697469616c697a6564000001010200000001000b
+    ScriptType: AceRadarBackend, TekinoKichi2-Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Component: {fileID: 0}
     ScriptData: 0001000000ffffffff01000000000000000c020000005354656b696e6f4b69636869322d417373656d626c792d4353686172702c2056657273696f6e3d302e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c0c0300000046417373656d626c792d4353686172702c2056657273696f6e3d302e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c05010000000f4170706c794c6576656c5374617473030000000f4973526f6f74436f6d706f6e656e740a4c6576656c5374617465074c6576656c4964000400011b4170706c794c6576656c53746174732b4c6576656c5374617465730300000008020000000105fcffffff1b4170706c794c6576656c53746174732b4c6576656c537461746573010000000776616c75655f5f000803000000000000000b0000000b
     ScriptType: ApplyLevelStats, TekinoKichi2-Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
@@ -4555,14 +4559,14 @@ MonoBehaviour:
     ScriptType: CombatArea, TekinoKichi2-Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   - Component: {fileID: 0}
-    ScriptData: 0001000000ffffffff01000000000000000c020000005354656b696e6f4b69636869322d417373656d626c792d4353686172702c2056657273696f6e3d302e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c0c03000000544a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c0c040000004e556e697479456e67696e652e494d4755494d6f64756c652c2056657273696f6e3d302e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c05010000000c53636f72654d6f6e69746f720f0000000f4973526f6f74436f6d706f6e656e74094465737453636f72650954696d6553636f72650a546774547572726574730854677453686970730854677454616e6b7310546774436f6e766f79456e61626c656411546774436f6e766f7956656869636c65731244656661756c7454757272657456616c75651044656661756c745368697056616c75651044656661756c7454616e6b56616c75651944656661756c74436f6e766f7956656869636c6556616c7565084d6178426f6e75730e5065725365636f6e64426f6e757304536b696e000000040404000200000000000004010808414a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e67576561706f6e50726f78795b5d03000000374a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e5368697050726f78795b5d03000000434a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e416e7469416972637261667454616e6b50726f78795b5d030000000108080808080813556e697479456e67696e652e475549536b696e0400000002000000010000000000000000090500000009060000000907000000000a96000000900100009600000064000000881300000a0000000908000000070500000000010000001f000000043f4a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e67576561706f6e50726f7879030000000909000000090a000000090b000000090c000000090d000000090e000000090f0000000910000000091100000009120000000913000000091400000009150000000916000000091700000009180000000919000000091a000000091b000000091c000000091d000000091e000000091f00000009200000000921000000092200000009230000000924000000092500000009260000000927000000070600000000010000000800000004354a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e5368697050726f78790300000009280000000929000000092a000000092b000000092c000000092d000000092e000000092f000000070700000000010000000000000004414a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e416e7469416972637261667454616e6b50726f787903000000050800000013556e697479456e67696e652e475549536b696e02000000084861734572726f7209417373657450617468000101040000000006300000001b4173736574732f537570706c792f53636f72652e677569736b696e0509000000484a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f7879040000000f4973526f6f74436f6d706f6e656e74084861734572726f72084f626a65637449640d436f6d706f6e656e745479706500000101010103000000000006310000002464613639343263642d616130332d346533372d616434642d38643564383066643034363506320000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c010a00000009000000000006330000002432373764303430312d656638392d343837642d613032392d64663237363764396234363006340000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c010b00000009000000000006350000002432343831373737662d663332662d343538322d623334312d66633136616261363034393006360000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c010c00000009000000000006370000002463326264306166342d373538642d343566382d613265392d33336136333236333965623806380000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c010d00000009000000000006390000002436643563333066642d303635362d343335372d396461622d356262656435646530633862063a0000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c010e000000090000000000063b0000002462633562643132612d363532642d343664342d626661312d633064613139376132636631063c0000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c010f000000090000000000063d0000002464633534346235642d373062622d343561622d626331612d633564336533616434323731063e0000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c0110000000090000000000063f0000002430323138656230362d613837612d343266342d383238652d36613138643262643566346406400000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c011100000009000000000006410000002432643637346133332d613038332d343766642d393564342d63323832613636323736356106420000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c011200000009000000000006430000002433343337316465652d313864662d343861642d386337642d66616439653531623161306506440000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c011300000009000000000006450000002465373932363839342d653337312d343564332d626364322d31336466636637663630636206460000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c011400000009000000000006470000002432633462303832372d633933642d343564642d613162392d37666664626134363437396106480000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c011500000009000000000006490000002461376262616130352d356162662d346364632d626530302d376232373763653466653234064a0000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c0116000000090000000000064b0000002435626337303435322d646634352d343835622d383334342d326138373064643037323438064c0000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c0117000000090000000000064d0000002461353061373235642d346232652d343932642d626261352d393433383530346365376139064e0000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c0118000000090000000000064f0000002439343334656137632d646238662d343538382d386430612d63623764653930666366346406500000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c011900000009000000000006510000002438653566626162622d353034362d343964322d393436662d39653234346463323038326606520000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c011a00000009000000000006530000002466616333643065622d623130332d346263632d623736372d36663030313738633133356506540000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c011b00000009000000000006550000002463663433633732362d623139392d346536612d613936312d34643337346262376136383406560000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c011c00000009000000000006570000002439633032316138392d323332612d343963622d613733382d31313838636432633530646406580000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c011d00000009000000000006590000002430333633326234302d323866622d343133622d613833362d356564623633646631343738065a0000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c011e000000090000000000065b0000002464366261613230362d376234662d346266312d383938312d653837636566656238633530065c0000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c011f000000090000000000065d0000002466616539366337372d613638642d346236392d613236352d363837313461616232646339065e0000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c0120000000090000000000065f0000002431313565343964342d656561302d346166662d613038352d32633663626335653038323906600000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c012100000009000000000006610000002430363263383965302d656262332d343866322d613134342d38323233623938666136613206620000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c012200000009000000000006630000002438623366363762312d613838662d343730392d396339352d64353232336263393731623406640000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c012300000009000000000006650000002432663130373162332d663733612d346266612d626530372d64616332366466663330646606660000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c012400000009000000000006670000002436353537386363622d303836342d343634662d616462372d31353737646338353364363706680000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c012500000009000000000006690000002438396437373739392d626437362d343465312d393036392d303537303862356631303432066a0000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c0126000000090000000000066b0000002464306465633131382d323537642d343335662d396266312d636635373131623864633739066c0000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c0127000000090000000000066d0000002462386537356432362d346139302d343131642d396265642d393638373436383337393535066e0000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c05280000003a4a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e44657374726f79657250726f7879040000000f4973526f6f74436f6d706f6e656e74084861734572726f72084f626a65637449640d436f6d706f6e656e7454797065000001010101030000000000066f0000002434656135356134622d616166312d343838342d623966622d613435636664663033303739067000000090014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e44657374726f79657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c012900000028000000000006710000002437663532393332382d356637392d346532382d623364632d373066323432326366653933067200000090014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e44657374726f79657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c012a00000028000000000006730000002435363835333966302d303039302d343935622d383035392d396539313339626263333835067400000090014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e44657374726f79657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c012b00000028000000000006750000002438663232366664392d626364642d346535302d626230642d646636613632336437396633067600000090014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e44657374726f79657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c012c00000028000000000006770000002432333936626563312d643235332d346430652d616466642d363235646361303035613438067800000090014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e44657374726f79657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c012d00000028000000000006790000002436313832626363372d333033652d343235322d386439332d623963306637363531383337067a00000090014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e44657374726f79657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c012e000000280000000000067b0000002432303032373032652d353562662d343564662d396136392d356164376664616330646239067c00000090014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e44657374726f79657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c012f000000280000000000067d0000002434366465383033662d656166652d346539652d623130322d643961633165656166356535067e00000090014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e44657374726f79657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c0b
+    ScriptData: 0001000000ffffffff01000000000000000c020000005354656b696e6f4b69636869322d417373656d626c792d4353686172702c2056657273696f6e3d302e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c0c03000000544a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c0c040000004e556e697479456e67696e652e494d4755494d6f64756c652c2056657273696f6e3d302e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c05010000000c53636f72654d6f6e69746f720f0000000f4973526f6f74436f6d706f6e656e74094465737453636f72650954696d6553636f72650a546774547572726574730854677453686970730854677454616e6b7310546774436f6e766f79456e61626c656411546774436f6e766f7956656869636c65731244656661756c7454757272657456616c75651044656661756c745368697056616c75651044656661756c7454616e6b56616c75651944656661756c74436f6e766f7956656869636c6556616c7565084d6178426f6e75730e5065725365636f6e64426f6e757304536b696e000000040404000200000000000004010808414a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e67576561706f6e50726f78795b5d03000000374a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e5368697050726f78795b5d03000000434a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e416e7469416972637261667454616e6b50726f78795b5d030000000108080808080813556e697479456e67696e652e475549536b696e0400000002000000010000000000000000090500000009060000000907000000000a96000000900100009600000064000000881300000a0000000908000000070500000000010000001f000000043f4a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e67576561706f6e50726f7879030000000909000000090a000000090b000000090c000000090d000000090e000000090f0000000910000000091100000009120000000913000000091400000009150000000916000000091700000009180000000919000000091a000000091b000000091c000000091d000000091e000000091f00000009200000000921000000092200000009230000000924000000092500000009260000000927000000070600000000010000000800000004354a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e5368697050726f78790300000009280000000929000000092a000000092b000000092c000000092d000000092e000000092f000000070700000000010000000000000004414a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e416e7469416972637261667454616e6b50726f787903000000050800000013556e697479456e67696e652e475549536b696e02000000084861734572726f7209417373657450617468000101040000000006300000001b4173736574732f537570706c792f53636f72652e677569736b696e0509000000484a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f7879040000000f4973526f6f74436f6d706f6e656e74084861734572726f72084f626a65637449640d436f6d706f6e656e745479706500000101010103000000000006310000002432386538336462312d363065392d346335662d613532322d33323232373161653031336606320000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c010a00000009000000000006330000002431306361353230612d336131332d346632392d386632622d33653437373366386131613606340000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c010b00000009000000000006350000002435383835343565342d343162302d343834362d623863302d37323136643834656638306606360000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c010c00000009000000000006370000002463353139653364612d306361332d343566642d623038392d37373537376164313037623806380000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c010d00000009000000000006390000002436356666306362342d653530662d343531642d613933392d653462336436323864363636063a0000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c010e000000090000000000063b0000002439316638303764642d396663362d346666642d386639342d663761353839343330366236063c0000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c010f000000090000000000063d0000002434303733656131652d646662392d343638642d393437352d666539613731303839353661063e0000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c0110000000090000000000063f0000002436316266663338362d616266302d346363332d383733382d33626364653965643665653206400000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c011100000009000000000006410000002461333839613463382d396463382d346163652d396463322d63326534316266333132643206420000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c011200000009000000000006430000002465643836633537642d386634302d343164642d393936342d33393864333364666366623806440000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c011300000009000000000006450000002435376138666666382d366639382d343435622d613061642d32393936346536663766373206460000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c011400000009000000000006470000002465663631663131622d323066662d343333382d626131392d30393035653531623735383906480000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c011500000009000000000006490000002464623165306433312d373064622d346565322d393238302d386437383835663637353039064a0000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c0116000000090000000000064b0000002433303132656330342d376262652d346338372d386131372d616664393861356235383965064c0000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c0117000000090000000000064d0000002434636639353961662d626466312d343634392d383538372d323136356137333765306661064e0000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c0118000000090000000000064f0000002436343137656530312d363366612d343165622d626461612d63343861393133313931656306500000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c011900000009000000000006510000002466306235396533302d363831332d343135352d396338612d39396533626639333133343006520000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c011a00000009000000000006530000002461393230623132382d353936312d343932662d393064302d64353064336466666435363406540000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c011b00000009000000000006550000002438356232396239352d343466632d343139622d623565312d65376431343965336331656406560000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c011c00000009000000000006570000002461623565663339372d636561632d343263302d613861302d34666132663337653361343306580000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c011d00000009000000000006590000002437643934363832332d646432622d343865342d626635652d633235626237653437656637065a0000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c011e000000090000000000065b0000002461393366653866302d363634392d346433362d623863322d356463343935656330313630065c0000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c011f000000090000000000065d0000002435666466613165662d303130652d346234362d386562332d643432356335303635386136065e0000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c0120000000090000000000065f0000002433636266666134332d373864342d346539652d393762622d31633031373332373736633106600000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c012100000009000000000006610000002433326339333539332d316235302d343235352d626534612d33333433383363363162636306620000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c012200000009000000000006630000002463666232306362382d353434612d343238372d613364352d63343764393563316563366306640000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c012300000009000000000006650000002437383735663535662d393533342d346633332d383732342d35326233643231623061626206660000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c012400000009000000000006670000002464353663323139362d396539392d343330372d613039372d31633061373138653038396606680000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c012500000009000000000006690000002438326262343536322d393330662d346166382d396563362d616432633632633732323537066a0000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c0126000000090000000000066b0000002439346532393434392d306333332d346436612d393030352d643261613436646663643964066c0000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c0127000000090000000000066d0000002431396362333435342d363333302d346462362d383430312d636339313466306636653639066e0000009e014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e674d697373696c654c61756e6368657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c05280000003a4a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e44657374726f79657250726f7879040000000f4973526f6f74436f6d706f6e656e74084861734572726f72084f626a65637449640d436f6d706f6e656e7454797065000001010101030000000000066f0000002433663336616362662d316366332d343537622d613562372d336134646366306633393031067000000090014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e44657374726f79657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c012900000028000000000006710000002434633334386136372d646264352d343539302d616233312d373863633630353363333633067200000090014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e44657374726f79657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c012a00000028000000000006730000002433303762396166362d653332662d346138612d623135632d333263633937343066623030067400000090014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e44657374726f79657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c012b00000028000000000006750000002439356361343763352d653239642d346538392d396433612d396464646132393030616631067600000090014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e44657374726f79657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c012c00000028000000000006770000002432383030316564322d356633652d343063632d383235612d393138613235303833623837067800000090014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e44657374726f79657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c012d00000028000000000006790000002462363936363937652d343639662d343932372d623863392d393562663565323465316264067a00000090014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e44657374726f79657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c012e000000280000000000067b0000002436326563613866612d383536392d343030342d393731352d376561623131633531336263067c00000090014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e44657374726f79657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c012f000000280000000000067d0000002438333563393563642d343463322d346138382d393166652d393664623437333936643562067e00000090014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e44657374726f79657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c0b
     ScriptType: ScoreMonitor, TekinoKichi2-Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   - Component: {fileID: 0}
-    ScriptData: 0001000000ffffffff01000000000000000c020000005354656b696e6f4b69636869322d417373656d626c792d4353686172702c2056657273696f6e3d302e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c0c03000000544a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c050100000012456e656d795461726765744d6f6e69746f720a0000000f4973526f6f74436f6d706f6e656e7408546f74616c5467740c44657374726f7965645467740f416c6c54677444657374726f7965640b5370656369616c4661696c0a546774547572726574730854677453686970730854677454616e6b7310546774436f6e766f79456e61626c6564125370656369616c4661696c53657474696e67000000000004040400020108080101414a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e67576561706f6e50726f78795b5d03000000374a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e5368697050726f78795b5d03000000434a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e416e7469416972637261667454616e6b50726f78795b5d0300000001020000000100000000000000000000090400000009050000000906000000000a0704000000000100000000000000043f4a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e67576561706f6e50726f787903000000070500000000010000000500000004354a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e5368697050726f787903000000090700000009080000000909000000090a000000090b000000070600000000010000000000000004414a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e416e7469416972637261667454616e6b50726f78790300000005070000003a4a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e44657374726f79657250726f7879040000000f4973526f6f74436f6d706f6e656e74084861734572726f72084f626a65637449640d436f6d706f6e656e7454797065000001010101030000000000060c0000002438663232366664392d626364642d346535302d626230642d646636613632336437396633060d00000090014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e44657374726f79657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c0108000000070000000000060e0000002432333936626563312d643235332d346430652d616466642d363235646361303035613438060f00000090014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e44657374726f79657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c010900000007000000000006100000002436313832626363372d333033652d343235322d386439332d623963306637363531383337061100000090014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e44657374726f79657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c010a00000007000000000006120000002432303032373032652d353562662d343564662d396136392d356164376664616330646239061300000090014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e44657374726f79657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c010b00000007000000000006140000002434366465383033662d656166652d346539652d623130322d643961633165656166356535061500000090014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e44657374726f79657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c0b
+    ScriptData: 0001000000ffffffff01000000000000000c020000005354656b696e6f4b69636869322d417373656d626c792d4353686172702c2056657273696f6e3d302e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c0c03000000544a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c050100000012456e656d795461726765744d6f6e69746f720a0000000f4973526f6f74436f6d706f6e656e7408546f74616c5467740c44657374726f7965645467740f416c6c54677444657374726f7965640b5370656369616c4661696c0a546774547572726574730854677453686970730854677454616e6b7310546774436f6e766f79456e61626c6564125370656369616c4661696c53657474696e67000000000004040400020108080101414a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e67576561706f6e50726f78795b5d03000000374a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e5368697050726f78795b5d03000000434a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e416e7469416972637261667454616e6b50726f78795b5d0300000001020000000100000000000000000000090400000009050000000906000000000a0704000000000100000000000000043f4a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e526f746174696e67576561706f6e50726f787903000000070500000000010000000500000004354a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e5368697050726f787903000000090700000009080000000909000000090a000000090b000000070600000000010000000000000004414a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e416e7469416972637261667454616e6b50726f78790300000005070000003a4a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e44657374726f79657250726f7879040000000f4973526f6f74436f6d706f6e656e74084861734572726f72084f626a65637449640d436f6d706f6e656e7454797065000001010101030000000000060c0000002439356361343763352d653239642d346538392d396433612d396464646132393030616631060d00000090014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e44657374726f79657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c0108000000070000000000060e0000002432383030316564322d356633652d343063632d383235612d393138613235303833623837060f00000090014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e44657374726f79657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c010900000007000000000006100000002462363936363937652d343639662d343932372d623863392d393562663565323465316264061100000090014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e44657374726f79657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c010a00000007000000000006120000002436326563613866612d383536392d343030342d393731352d376561623131633531336263061300000090014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e44657374726f79657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c010b00000007000000000006140000002438333563393563642d343463322d346138382d393166652d393664623437333936643562061500000090014a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732e50726566616250726f786965732e44657374726f79657250726f78792c204a756e64726f6f2e53696d706c65506c616e65732e4d6f64546f6f6c732c2056657273696f6e3d312e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c0b
     ScriptType: EnemyTargetMonitor, TekinoKichi2-Assembly-CSharp, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectId: 56e706b9-375c-41b0-9095-04e12fb3bafd
+  ObjectId: 03b4c382-5626-48f6-8f64-0e6b1ad1b5f6
 --- !u!1 &1507332877
 GameObject:
   m_ObjectHideFlags: 0
@@ -4573,7 +4577,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1507332878}
   - component: {fileID: 1507332879}
-  - component: {fileID: 6647976551775757763}
+  - component: {fileID: 4751960290395158335}
   m_Layer: 0
   m_Name: Missile Launcher (1)
   m_TagString: Untagged
@@ -4622,7 +4626,7 @@ MonoBehaviour:
   _missileFireDelay: 8
   _missileFireDelayRandomExtraTime: 1
   _missileMaxSpeed: 600
---- !u!114 &6647976551775757763
+--- !u!114 &4751960290395158335
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4635,7 +4639,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: bc5bd12a-652d-46d4-bfa1-c0da197a2cf1
+  ObjectId: 91f807dd-9fc6-4ffd-8f94-f7a5894306b6
 --- !u!1 &1554283794
 GameObject:
   m_ObjectHideFlags: 0
@@ -4646,7 +4650,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1554283795}
   - component: {fileID: 1554283796}
-  - component: {fileID: 1269228341287753542}
+  - component: {fileID: 3653849389794535359}
   m_Layer: 0
   m_Name: Missile Launcher
   m_TagString: Untagged
@@ -4695,7 +4699,7 @@ MonoBehaviour:
   _missileFireDelay: 8
   _missileFireDelayRandomExtraTime: 1
   _missileMaxSpeed: 600
---- !u!114 &1269228341287753542
+--- !u!114 &3653849389794535359
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4708,7 +4712,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 03632b40-28fb-413b-a836-5edb63df1478
+  ObjectId: 7d946823-dd2b-48e4-bf5e-c25bb7e47ef7
 --- !u!1 &1638462214
 GameObject:
   m_ObjectHideFlags: 0
@@ -4721,7 +4725,7 @@ GameObject:
   - component: {fileID: 1638462218}
   - component: {fileID: 1638462217}
   - component: {fileID: 1638462216}
-  - component: {fileID: 1235007053895548349}
+  - component: {fileID: 1438239391230229467}
   m_Layer: 0
   m_Name: Cylinder (4)
   m_TagString: Untagged
@@ -4804,7 +4808,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &1235007053895548349
+--- !u!114 &1438239391230229467
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4817,7 +4821,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 3a298c0c-2bfc-4eb2-a1e3-669e4e083ca8
+  ObjectId: 12d0b86b-9a6f-4606-917d-24b63caab5fb
 --- !u!1 &1813710303
 GameObject:
   m_ObjectHideFlags: 0
@@ -4828,7 +4832,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1813710304}
   - component: {fileID: 1813710305}
-  - component: {fileID: 3621029661838557405}
+  - component: {fileID: 5007623207869768356}
   m_Layer: 0
   m_Name: Missile Defense Base
   m_TagString: Untagged
@@ -4884,7 +4888,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _initiallyHostile: 1
---- !u!114 &3621029661838557405
+--- !u!114 &5007623207869768356
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4897,7 +4901,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 004e7333-c6ac-4a92-a00e-e42b03d4d43d
+  ObjectId: bfeabadb-6032-43a9-8216-b5faa0e11299
 --- !u!1 &1845897559
 GameObject:
   m_ObjectHideFlags: 0
@@ -4908,7 +4912,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1845897560}
   - component: {fileID: 1845897561}
-  - component: {fileID: 3138176555717374515}
+  - component: {fileID: 3056537826208639266}
   m_Layer: 0
   m_Name: Missile Launcher (2)
   m_TagString: Untagged
@@ -4957,7 +4961,7 @@ MonoBehaviour:
   _missileFireDelay: 8
   _missileFireDelayRandomExtraTime: 1
   _missileMaxSpeed: 600
---- !u!114 &3138176555717374515
+--- !u!114 &3056537826208639266
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4970,7 +4974,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: cf43c726-b199-4e6a-a961-4d374bb7a684
+  ObjectId: 85b29b95-44fc-419b-b5e1-e7d149e3c1ed
 --- !u!1 &1876866740
 GameObject:
   m_ObjectHideFlags: 0
@@ -4983,7 +4987,7 @@ GameObject:
   - component: {fileID: 1876866744}
   - component: {fileID: 1876866743}
   - component: {fileID: 1876866742}
-  - component: {fileID: 3459782216905817045}
+  - component: {fileID: 4187647506593000887}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -5066,7 +5070,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &3459782216905817045
+--- !u!114 &4187647506593000887
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5079,7 +5083,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 0fb7fb9f-4f4b-4776-b20e-aa75cec0e24f
+  ObjectId: c19c1a35-360d-4de3-8581-a4df60e40067
 --- !u!1 &1898520028
 GameObject:
   m_ObjectHideFlags: 0
@@ -5092,7 +5096,7 @@ GameObject:
   - component: {fileID: 1898520032}
   - component: {fileID: 1898520031}
   - component: {fileID: 1898520030}
-  - component: {fileID: 7814011246318165458}
+  - component: {fileID: 7950237344509001642}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -5175,7 +5179,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &7814011246318165458
+--- !u!114 &7950237344509001642
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5188,7 +5192,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 6c376899-c1b8-490d-b8f3-a29e92a72cd2
+  ObjectId: 1f4c2b46-9f29-4174-8568-b05003f03b8d
 --- !u!1 &1912517949
 GameObject:
   m_ObjectHideFlags: 0
@@ -5199,7 +5203,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1912517950}
   - component: {fileID: 1912517951}
-  - component: {fileID: 6604929781685160286}
+  - component: {fileID: 1666072688087708293}
   m_Layer: 0
   m_Name: Destroyer
   m_TagString: Untagged
@@ -5239,7 +5243,7 @@ MonoBehaviour:
   _lockHostileState: 1
   _allies: []
   _speed: 0
---- !u!114 &6604929781685160286
+--- !u!114 &1666072688087708293
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5252,7 +5256,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 46de803f-eafe-4e9e-b102-d9ac1eeaf5e5
+  ObjectId: 835c95cd-44c2-4a88-91fe-96db47396d5b
 --- !u!1 &1913697313
 GameObject:
   m_ObjectHideFlags: 0
@@ -5263,7 +5267,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1913697314}
   - component: {fileID: 1913697315}
-  - component: {fileID: 1425837279441755355}
+  - component: {fileID: 5534283622516839492}
   m_Layer: 0
   m_Name: Missile Launcher (1)
   m_TagString: Untagged
@@ -5312,7 +5316,7 @@ MonoBehaviour:
   _missileFireDelay: 8
   _missileFireDelayRandomExtraTime: 1
   _missileMaxSpeed: 600
---- !u!114 &1425837279441755355
+--- !u!114 &5534283622516839492
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5325,7 +5329,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: fac3d0eb-b103-4bcc-b767-6f00178c135e
+  ObjectId: a920b128-5961-492f-90d0-d50d3dffd564
 --- !u!1 &1925485327
 GameObject:
   m_ObjectHideFlags: 0
@@ -5336,7 +5340,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1925485328}
   - component: {fileID: 1925485329}
-  - component: {fileID: 73381169690287339}
+  - component: {fileID: 7746602898586290990}
   m_Layer: 0
   m_Name: Missile Launcher
   m_TagString: Untagged
@@ -5385,7 +5389,7 @@ MonoBehaviour:
   _missileFireDelay: 8
   _missileFireDelayRandomExtraTime: 1
   _missileMaxSpeed: 600
---- !u!114 &73381169690287339
+--- !u!114 &7746602898586290990
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5398,7 +5402,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 6d5c30fd-0656-4357-9dab-5bbed5de0c8b
+  ObjectId: 65ff0cb4-e50f-451d-a939-e4b3d628d666
 --- !u!1 &1935089049
 GameObject:
   m_ObjectHideFlags: 0
@@ -5409,7 +5413,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1935089050}
   - component: {fileID: 1935089051}
-  - component: {fileID: 2961909359381356586}
+  - component: {fileID: 1002555711839658092}
   m_Layer: 0
   m_Name: Laser (1)
   m_TagString: Untagged
@@ -5454,7 +5458,7 @@ MonoBehaviour:
   _maxLockAngle: 5
   _requiredLockTime: 3
   _requiredRocketLockTime: 1
---- !u!114 &2961909359381356586
+--- !u!114 &1002555711839658092
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5467,7 +5471,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 7bd0c95a-b270-494a-b9e2-5131692f0c23
+  ObjectId: e03c5c66-9ea2-437f-a258-252ded0ee058
 --- !u!1 &1949171937
 GameObject:
   m_ObjectHideFlags: 0
@@ -5478,7 +5482,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1949171938}
   - component: {fileID: 1949171939}
-  - component: {fileID: 1772699676309575371}
+  - component: {fileID: 3351198492425260769}
   m_Layer: 0
   m_Name: Missile Launcher (3)
   m_TagString: Untagged
@@ -5527,7 +5531,7 @@ MonoBehaviour:
   _missileFireDelay: 8
   _missileFireDelayRandomExtraTime: 1
   _missileMaxSpeed: 600
---- !u!114 &1772699676309575371
+--- !u!114 &3351198492425260769
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5540,7 +5544,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 2c4b0827-c93d-45dd-a1b9-7ffdba46479a
+  ObjectId: ef61f11b-20ff-4338-ba19-0905e51b7589
 --- !u!1 &1953062970
 GameObject:
   m_ObjectHideFlags: 0
@@ -5551,7 +5555,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1953062971}
   - component: {fileID: 1953062972}
-  - component: {fileID: 7721932295716798415}
+  - component: {fileID: 6240118016009217082}
   m_Layer: 0
   m_Name: Laser (3)
   m_TagString: Untagged
@@ -5596,7 +5600,7 @@ MonoBehaviour:
   _maxLockAngle: 5
   _requiredLockTime: 3
   _requiredRocketLockTime: 1
---- !u!114 &7721932295716798415
+--- !u!114 &6240118016009217082
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5609,7 +5613,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: c4a587bc-8b2e-4d80-8a1f-0d50ac1b6c23
+  ObjectId: 47e74aaf-4bbb-4ff3-b6b9-ae6a85c0fe9c
 --- !u!1 &1966114793
 GameObject:
   m_ObjectHideFlags: 0
@@ -5620,7 +5624,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1966114794}
   - component: {fileID: 1966114795}
-  - component: {fileID: 6284009291537257180}
+  - component: {fileID: 4113913681609769039}
   m_Layer: 0
   m_Name: Missile Launcher (1)
   m_TagString: Untagged
@@ -5669,7 +5673,7 @@ MonoBehaviour:
   _missileFireDelay: 8
   _missileFireDelayRandomExtraTime: 1
   _missileMaxSpeed: 600
---- !u!114 &6284009291537257180
+--- !u!114 &4113913681609769039
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5682,7 +5686,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 34371dee-18df-48ad-8c7d-fad9e51b1a0e
+  ObjectId: ed86c57d-8f40-41dd-9964-398d33dfcfb8
 --- !u!1 &2012383566
 GameObject:
   m_ObjectHideFlags: 0
@@ -5693,7 +5697,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2012383567}
   - component: {fileID: 2012383568}
-  - component: {fileID: 8246653572543731553}
+  - component: {fileID: 2889937840096513576}
   m_Layer: 0
   m_Name: Missile Launcher (2)
   m_TagString: Untagged
@@ -5742,7 +5746,7 @@ MonoBehaviour:
   _missileFireDelay: 8
   _missileFireDelayRandomExtraTime: 1
   _missileMaxSpeed: 600
---- !u!114 &8246653572543731553
+--- !u!114 &2889937840096513576
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5755,7 +5759,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 2481777f-f32f-4582-b341-fc16aba60490
+  ObjectId: 588545e4-41b0-4846-b8c0-7216d84ef80f
 --- !u!1 &2042495801
 GameObject:
   m_ObjectHideFlags: 0
@@ -5766,7 +5770,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2042495802}
   - component: {fileID: 2042495803}
-  - component: {fileID: 7134783928057167110}
+  - component: {fileID: 3177110316670104115}
   m_Layer: 0
   m_Name: LongRange (4)
   m_TagString: Untagged
@@ -5815,7 +5819,7 @@ MonoBehaviour:
   _missileFireDelay: 15
   _missileFireDelayRandomExtraTime: 1
   _missileMaxSpeed: 900
---- !u!114 &7134783928057167110
+--- !u!114 &3177110316670104115
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5828,7 +5832,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 89d77799-bd76-44e1-9069-05708b5f1042
+  ObjectId: 82bb4562-930f-4af8-9ec6-ad2c62c72257
 --- !u!1 &2117649883
 GameObject:
   m_ObjectHideFlags: 0
@@ -5841,7 +5845,7 @@ GameObject:
   - component: {fileID: 2117649887}
   - component: {fileID: 2117649886}
   - component: {fileID: 2117649885}
-  - component: {fileID: 7405394443813000403}
+  - component: {fileID: 2816953951178291383}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -5924,7 +5928,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &7405394443813000403
+--- !u!114 &2816953951178291383
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5937,4 +5941,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomScripts: []
-  ObjectId: 76f2c9d3-dd16-4bf3-9a34-e2cee614013d
+  ObjectId: 6a3f48a7-5d44-4943-b023-8999b15209a8
