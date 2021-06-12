@@ -55,6 +55,9 @@ public abstract class AssaultLevelBase : Level
     protected CombatArea CombatArea { get; set; }
     protected ApplyLevelStats ApplyLevelStats { get; set; }
 
+    protected AceRadarBackend AceRadarBackend { get; set; }
+    protected AllyMarkers AllyMarkers { get; set; }
+
     /// <summary>
     /// Gets a value indicating whether or not the level has been initialized.
     /// </summary>
@@ -186,6 +189,20 @@ public abstract class AssaultLevelBase : Level
                     Debug.LogErrorFormat("Unable to get the level stats handler script from the level game object '{0}'", this._levelGameObjectName);
                     this.Initialized = false;
                     return;
+                }
+
+                this.AceRadarBackend = obj.GetComponent<AceRadarBackend>();
+                if (this.AceRadarBackend == null)
+                {
+                    Debug.LogErrorFormat("Unable to get the AceRadar backend script from the level game object '{0}'", this._levelGameObjectName);
+                    this.Initialized = false;
+                    return;
+                }
+
+                this.AllyMarkers = obj.GetComponent<AllyMarkers>();
+                if (this.ApplyLevelStats == null)
+                {
+                    Debug.LogFormat("No AllyMarkers in '{0}'", this._levelGameObjectName);
                 }
 
                 ServiceProvider.Instance.EnvironmentManager.UpdateTimeOfDay(TimeOfDay, 0, false, true);

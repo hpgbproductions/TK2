@@ -134,6 +134,7 @@ public class StatHolder : MonoBehaviour
     {
         int SumTotal = 0;
         int SumDest = 0;
+        float SumTime = 0f;
 
         string DisplayTime;
 
@@ -147,9 +148,11 @@ public class StatHolder : MonoBehaviour
 
             SumTotal += TotalRecords[i];
             SumDest += DestRecords[i];
+            SumTime += TimeRecords[i];
         }
 
-        DebugText += string.Format("\n\n[All Missions] Total Combined: {0} | Total Destruction: {1}", SumTotal, SumDest);
+        DisplayTime = string.Format("{0:D2}' {1:D2}\" {2:D2}", Mathf.FloorToInt(SumTime / 60f), Mathf.FloorToInt(Mathf.Repeat(SumTime, 60f)), Mathf.FloorToInt(Mathf.Repeat(SumTime, 1f) * 100));
+        DebugText += string.Format("\n\n[All Missions] Total Combined: {0} | Total Destruction: {1} | Total Time Record: {2}", SumTotal, SumDest, DisplayTime);
 
         Debug.Log(DebugText);
     }

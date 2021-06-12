@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using Assets.SimplePlanesReflection.Assets.Scripts.Levels.Enemies;
 using Jundroo.SimplePlanes.ModTools;
 using Jundroo.SimplePlanes.ModTools.PrefabProxies;
@@ -36,6 +37,11 @@ public class EnemyTargetMonitor : MonoBehaviour
 
     public bool SpecialFail = false;
 
+    // AceRadar - place AceRadarBackend Component on the same GameObject!
+    private AceRadarBackend Backend;
+    private int InitWaitFrames = 50;
+    private int InitCountFrames = 0;
+
     private void Start()
     {
         HasTurrets = TgtTurrets.Length > 0;
@@ -44,10 +50,40 @@ public class EnemyTargetMonitor : MonoBehaviour
         HasConvoyVehicles = TgtConvoyEnabled & TgtConvoyVehicles != null;
 
         TotalTgt = TgtTurrets.Length + TgtShips.Length + TgtTanks.Length + (HasConvoyVehicles ? TgtConvoyVehicles.Count : 0);
+
+        // AceRadar
+        Backend = gameObject.GetComponent<AceRadarBackend>();
+        if (Backend.Initialized)
+        {
+            // Get the initialization frame delay
+            InitWaitFrames = Backend.GetCheckInterval();
+        }
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
+        // BEGIN (Set the blip style of targets, after InitWaitFrames frames)
+
+        if (InitCountFrames == InitWaitFrames && Backend.Initialized)
+        {
+            foreach (RotatingWeaponProxy turret in TgtTurrets)
+            {
+                Backend.FindAndModifyTargetBlip(turret, AceRadarBackend.AceRadarSprites.GroundCircled, AceRadarBackend.AceRadarColors.Red);
+            }
+            foreach (ShipProxy ship in TgtShips)
+            {
+                Backend.FindAndModifyTargetBlip(ship, AceRadarBackend.AceRadarSprites.GroundCircled, AceRadarBackend.AceRadarColors.Red);
+            }
+            foreach (AntiAircraftTankProxy tank in TgtTanks)
+            {
+                Backend.FindAndModifyTargetBlip(tank, AceRadarBackend.AceRadarSprites.GroundCircled, AceRadarBackend.AceRadarColors.Red);
+            }
+        }
+
+        InitCountFrames++;
+
+        // END (Set the blip style of targets, after InitWaitFrames frames)
+
         int CurrentTgt = 0;
 
         if (!AllTgtDestroyed)
